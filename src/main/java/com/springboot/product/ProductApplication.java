@@ -8,6 +8,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
+
+/**
+ * 常见的注册中心 zookeeper consul etcd redis
+ *
+ * 服务启动的时候把服务的IP，port都要注册中心zookeeper
+ */
+
+
 @SpringBootApplication
 //https://blog.csdn.net/pange1991/article/details/81238940 坑
 @ComponentScan(basePackages = "com.springboot")

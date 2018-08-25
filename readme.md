@@ -20,6 +20,15 @@
         </dependency>
    2.坑
      
+   
     //https://blog.csdn.net/pange1991/article/details/81238940 坑
     @ComponentScan(basePackages = "com.springboot")
     @MapperScan(basePackages = "com.springboot")
+    
+    Curator版本问题
+    https://my.oschina.net/u/237688/blog/808415
+    
+    
+    
+    
+      
